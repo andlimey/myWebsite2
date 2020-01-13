@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Thasadith);
+
+body  {
+	font-family: Thasadith, Hevetical;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+}
+
+#particles-js {
+    background: #0c1031;
+	height: 100vh;
+	width: 100%;
+}
+
+
+.overview {
+	color:#fff;
+	text-align: center;
+	position: absolute;
+	top:30%;
+	width:100%;
+}
+
+.my_name {
+	font-size: 5rem;
+}
+
+.description {
+	font-size: 2rem;
+}
+
+button {
+	font-size: 1rem;
+	text-decoration: none;
+	margin: 5px;
+	color:white;
+	background: transparent;
+}
+
+button:hover {
+	background: #fff;
+	color: #000;
+}
+
+
+.link {
+	border: #ccc 1px solid;
+	padding: 10px 15px;
+	border-radius:8px;
+}
+
+@media only screen and (max-width:550px) {
+	.my_name {
+		font-size: 4rem;
+	}
+
+	.description {
+		font-size: 1.5rem;
+	}
+
+	button {
+		font-size: 0.8rem;
+	}
+}
